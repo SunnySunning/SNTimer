@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SNTimer"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "SNTimer is weak NSTimer 工具"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SunnySunning/SNTimer.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/SunnySunning/SNTimer.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SNTimer", "SNTimer/SNTimer/ViewController.h"
+  s.source_files  = "SNTimer", "SNTimer/SNTimer/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
